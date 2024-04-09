@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://nickirk.github.io/sitemap.xml
