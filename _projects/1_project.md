@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 Coming soon...
-See papers[^1][^2] below for more information\cite{liao2024}.
+See papers[^1][^2] below for more information.
 
 [^1]: [Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory](https://link.aps.org/pdf/10.1103/PhysRevResearch.3.033072)
 
