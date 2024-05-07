@@ -20,8 +20,8 @@
     {
       "name": "Ludwig-Maximilians-Universität München, Munich, Germany",
       "position": "Teaching Assistant",
-      "startDate": "2023-10.",
-      "endDate": "2024-04.",
+      "startDate": "2023-10",
+      "endDate": "2024-04",
       "summary": "Teaching assistant to Quantum Information Theory course.",
       "highlights": ["Quantum Information Theory, Quantum Computing"]
     },
@@ -64,32 +64,32 @@
       "location": "Stuttgart, Germany",
       "area": "Quantum Chemistry",
       "studyType": "PhD",
-      "startDate": "2017-06-01",
-      "endDate": "2021-03-31"
+      "startDate": "2017-06",
+      "endDate": "2021-03"
     },
     {
       "institution": "International Max Planck Research School for Condensed Matter Science",
       "location": "Stuttgart, Germany",
       "area": "Physics",
       "studyType": "Master",
-      "startDate": "2015-09-01",
-      "endDate": "2017-05-31"
+      "startDate": "2015-09",
+      "endDate": "2017-05"
     },
     {
       "institution": "King's College London",
       "location": "London, UK",
       "area": "Physics",
       "studyType": "Exchange Student",
-      "startDate": "2014-09-01",
-      "endDate": "2015-06-30"
+      "startDate": "2014-09",
+      "endDate": "2015-06"
     },
     {
       "institution": "Wuhan University",
       "location": "Wuhan, China",
       "area": "Physics",
       "studyType": "Bachelor",
-      "startDate": "2011-09-01",
-      "endDate": "2015-06-30"
+      "startDate": "2011-09",
+      "endDate": "2015-06"
     }
   ],
   "skills": [
