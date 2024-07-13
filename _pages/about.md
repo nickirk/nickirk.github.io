@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I have a strong interest in the theoretical and algorithmic development for solving
-strongly correlated quantum many-body systems on classical and quantum computers, 
+strongly correlated quantum many-body systems, 
 as well as in the application of these methods to study the electronic
 structure of molecules and materials. 
 I have a Ph.D. in quantum chemistry from the 
