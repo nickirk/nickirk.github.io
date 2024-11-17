@@ -28,6 +28,10 @@ let applyTheme = () => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+<<<<<<< HEAD
+=======
+  setSearchTheme(theme);
+>>>>>>> upstream/main
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -186,6 +190,20 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
+<<<<<<< HEAD
+=======
+let setSearchTheme = (theme) => {
+  const ninjaKeys = document.querySelector("ninja-keys");
+  if (!ninjaKeys) return;
+
+  if (theme === "dark") {
+    ninjaKeys.classList.add("dark");
+  } else {
+    ninjaKeys.classList.remove("dark");
+  }
+};
+
+>>>>>>> upstream/main
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {

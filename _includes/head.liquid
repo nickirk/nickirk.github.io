@@ -45,6 +45,21 @@
 {% endif %}
 
 <!-- Styles -->
+<<<<<<< HEAD
+=======
+
+<!-- pseudocode -->
+{% if page.pseudocode %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    integrity="{{ site.third_party_libraries.pseudocode.integrity.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
+>>>>>>> upstream/main
 {% if site.icon.size <= 4 %}
   <link
     rel="shortcut icon"
@@ -116,6 +131,11 @@
       defer
       rel="stylesheet"
       href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
+<<<<<<< HEAD
+=======
+      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
+      crossorigin="anonymous"
+>>>>>>> upstream/main
     >
   {% endif %}
   <!-- Image slider -->
