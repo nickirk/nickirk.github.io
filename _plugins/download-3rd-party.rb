@@ -6,9 +6,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
   require 'open-uri'
   require 'uri'
 
-<<<<<<< HEAD
-  def download_file(url, dest)
-=======
   font_file_types = ['otf', 'ttf', 'woff', 'woff2']
   image_file_types = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
 
@@ -63,7 +60,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
       return
     end
 
->>>>>>> upstream/main
     # create the directory if it doesn't exist
     dir = File.dirname(dest)
     unless File.directory?(dir)
@@ -86,16 +82,12 @@ Jekyll::Hooks.register :site, :after_init do |site|
     end
   end
 
-<<<<<<< HEAD
-  def download_fonts(url, dest)
-=======
   def download_fonts(url, dest, file_types)
     # only try to download the file if url doesn't start with | for security reasons
     if url.start_with?('|')
       return
     end
 
->>>>>>> upstream/main
     # only download fonts if the directory doesn't exist or is empty
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading fonts from #{url} to #{dest}"
@@ -106,11 +98,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
         file_name = link['href'].split('/').last.split('?').first
 
         # verify if the file is a font file
-<<<<<<< HEAD
-        if file_name.end_with?('.woff', '.woff2', '.ttf', '.otf')
-=======
         if file_name.end_with?(*file_types)
->>>>>>> upstream/main
           # download the file and change the url to the local file
           download_file(URI.join(url, link['href']).to_s, File.join(dest, file_name))
         end
@@ -118,9 +106,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
     end
   end
 
-<<<<<<< HEAD
-  def download_fonts_from_css(config, url, dest)
-=======
   def download_images(url, dest, file_types)
     # only try to download the file if url doesn't start with | for security reasons
     if url.start_with?('|')
@@ -151,7 +136,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
       return
     end
 
->>>>>>> upstream/main
     # get the file name from the url
     file_name = url.split('/').last.split('?').first
 
@@ -171,56 +155,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
       # get the font-face rules
       css.each_rule_set do |rule_set|
         # check if the rule set has a url
-<<<<<<< HEAD
-        if rule_set['src'].include?('url(')
-          # get the font file url
-          font_url = rule_set['src'].split('url(').last.split(')').first
-
-          # remove quotes from the url
-          if font_url.start_with?('"') || font_url.start_with?("'")
-            font_url = font_url[1..-2]
-          end
-
-          font_file_name = font_url.split('/').last.split('?').first
-
-          # verify if the file is a font file
-          if font_file_name.end_with?('.woff', '.woff2', '.ttf', '.otf')
-            # fix the font url if it is not an absolute url
-            unless font_url.start_with?('https://')
-              font_url = URI.join(url, font_url).to_s
-            end
-
-            # download the file
-            download_file(font_url, File.join(dest, 'fonts', font_file_name))
-
-            # change the font url to the local file, considering baseurl
-            if config['baseurl']
-              # add rest of the src attribute if it exists
-              if rule_set['src'].split(' ').length > 1
-                rule_set['src'] = "url(#{File.join(config['baseurl'], 'assets', 'libs', 'fonts', font_file_name)}) #{rule_set['src'].split(' ').last}"
-              else
-                rule_set['src'] = "url(#{File.join(config['baseurl'], 'assets', 'libs', 'fonts', font_file_name)})"
-              end
-            else
-              # add rest of the src attribute if it exists
-              if rule_set['src'].split(' ').length > 1
-                rule_set['src'] = "url(#{File.join('/assets', 'libs', 'fonts', font_file_name)}) #{rule_set['src'].split(' ').last}"
-              else
-                rule_set['src'] = "url(#{File.join('/assets', 'libs', 'fonts', font_file_name)})"
-              end
-            end
-          end
-        end
-      end
-
-      # save the modified css file
-=======
         download_and_change_rule_set_url(rule_set, 'src', File.join(dest, 'fonts'), File.join(lib_name, 'fonts'), config, file_types)
       end
 
       # save the modified css file
       puts "Saving modified css file to #{File.join(dest, file_name)}"
->>>>>>> upstream/main
       File.write(File.join(dest, file_name), css.to_s)
     end
 
@@ -260,15 +199,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
               # get the file name from the url
               file_name = url2.split('/').last.split('?').first
               # download the file and change the url to the local file
-<<<<<<< HEAD
-              dest = File.join(site.source, 'assets', 'libs', file_name)
-              download_file(url2, dest)
-              # change the url to the local file, considering baseurl
-              if site.config['baseurl']
-                site.config['third_party_libraries'][key]['url'][type][type2] = File.join(site.config['baseurl'], 'assets', 'libs', file_name)
-              else
-                site.config['third_party_libraries'][key]['url'][type][type2] = File.join('/assets', 'libs', file_name)
-=======
               dest = File.join(site.source, 'assets', 'libs', key, file_name)
               download_file(url2, dest)
               # change the url to the local file, considering baseurl
@@ -276,7 +206,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
                 site.config['third_party_libraries'][key]['url'][type][type2] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
               else
                 site.config['third_party_libraries'][key]['url'][type][type2] = File.join('/assets', 'libs', key, file_name)
->>>>>>> upstream/main
               end
             end
 
@@ -287,20 +216,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
 
               if file_name.end_with?('css')
                 # if the file is a css file, download the css file, the fonts from it, and change information on the css file
-<<<<<<< HEAD
-                file_name = download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs'))
-                # change the url to the local file, considering baseurl
-                if site.config['baseurl']
-                  site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', file_name)
-                else
-                  site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', file_name)
-                end
-              else
-                # download the font files and change the url to the local file
-                download_fonts(url, File.join(site.source, 'assets', 'libs', site.config['third_party_libraries'][key]['local']['fonts']))
-              end
-
-=======
                 file_name = download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs', key), key, font_file_types)
                 # change the url to the local file, considering baseurl
                 if site.config['baseurl']
@@ -317,20 +232,10 @@ Jekyll::Hooks.register :site, :after_init do |site|
               # download the font files and change the url to the local file
               download_images(url, File.join(site.source, 'assets', 'libs', key, site.config['third_party_libraries'][key]['local'][type]), image_file_types)
 
->>>>>>> upstream/main
             else
               # get the file name from the url
               file_name = url.split('/').last.split('?').first
               # download the file and change the url to the local file
-<<<<<<< HEAD
-              dest = File.join(site.source, 'assets', 'libs', file_name)
-              download_file(url, dest)
-              # change the url to the local file, considering baseurl
-              if site.config['baseurl']
-                site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', file_name)
-              else
-                site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', file_name)
-=======
               dest = File.join(site.source, 'assets', 'libs', key, file_name)
               download_file(url, dest)
               # change the url to the local file, considering baseurl
@@ -338,7 +243,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
                 site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
               else
                 site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', key, file_name)
->>>>>>> upstream/main
               end
             end
           end

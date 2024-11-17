@@ -3,13 +3,6 @@
 
   <script>
     var wechatModal = document.getElementById('WeChatMod');
-<<<<<<< HEAD
-    var wechatBtn = document.getElementById('WeChatBtn');
-
-    wechatBtn.onclick = function () {
-      wechatModal.style.display = 'block';
-    };
-=======
     var wechatBtn = document.querySelectorAll('[id="WeChatBtn"]');
 
     for (var i = 0; i < wechatBtn.length; i++) {
@@ -17,7 +10,6 @@
         wechatModal.style.display = 'block';
       };
     }
->>>>>>> upstream/main
 
     window.onclick = function (event) {
       if (event.target == wechatModal) {

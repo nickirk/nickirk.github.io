@@ -1,21 +1,4 @@
 {% if site.enable_math %}
-<<<<<<< HEAD
-  <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams',
-      },
-    };
-  </script>
-  <script
-    defer
-    type="text/javascript"
-    id="MathJax-script"
-    src="{{ site.third_party_libraries.mathjax.url.js }}"
-  ></script>
-  <script defer src="{{ site.third_party_libraries.polyfill.url.js }}"></script>
-=======
   {% unless page.pseudocode %}
     <!-- MathJax -->
     <script type="text/javascript">
@@ -39,5 +22,4 @@
       crossorigin="anonymous"
     ></script>
   {% endunless %}
->>>>>>> upstream/main
 {% endif %}

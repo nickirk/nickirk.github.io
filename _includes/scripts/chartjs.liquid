@@ -1,14 +1,10 @@
 {% if page.chart and page.chart.chartjs %}
-<<<<<<< HEAD
-  <script defer src="{{ site.third_party_libraries.chartjs.url.js }}"></script>
-=======
   <script
     defer
     src="{{ site.third_party_libraries.chartjs.url.js }}"
     integrity="{{ site.third_party_libraries.chartjs.integrity.js }}"
     crossorigin="anonymous"
   ></script>
->>>>>>> upstream/main
   <script>
     $(document).ready(function () {
       var $canvas = null,
