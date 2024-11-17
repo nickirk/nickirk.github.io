@@ -28,10 +28,7 @@ let applyTheme = () => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
-<<<<<<< HEAD
-=======
   setSearchTheme(theme);
->>>>>>> upstream/main
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -190,8 +187,6 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
-<<<<<<< HEAD
-=======
 let setSearchTheme = (theme) => {
   const ninjaKeys = document.querySelector("ninja-keys");
   if (!ninjaKeys) return;
@@ -203,7 +198,6 @@ let setSearchTheme = (theme) => {
   }
 };
 
->>>>>>> upstream/main
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
