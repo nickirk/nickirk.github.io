@@ -1,3 +1,59 @@
+@misc{liao2024c,
+  title = {Energy-Filtered Excited States and Real-Time Dynamics Served in a Contour Integral},
+  author = {Liao, Ke},
+  year = {2024},
+  month = sep,
+  number = {arXiv:2409.07354},
+  eprint = {2409.07354},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2409.07354},
+  url = {http://arxiv.org/abs/2409.07354},
+  urldate = {2024-10-03},
+  abstract = {It is observed that the Cauchy integral formula (CIF) can be used to represent holomorphic functions of diagonalizable operators on a finite domain. This forms the theoretical foundation for applying various operators in the form of a contour integral to a state, while filtering away eigen-components that are not included by the contour. As a special case, the identity operator in the integral form--the Riesz projector--is used to design a black-box algorithm for finding a given number of eigen-pairs whose energies are close to a specified value in the equation-of-motion coupled cluster singles and doubles (EOM-CCSD) framework, with applications to calculate core excited states of molecules which is relevant for the X-ray absorption spectroscopy (XAS). As a generalization, I showcase a novel real-time electron dynamics (RT-EOM-CCSD) algorithm based on the CIF form of the exponential time-evolution operator, which admits extremely large time steps while preserving accurate spectral information.},
+  copyright = {All rights reserved},
+  altmetric = true,
+  selected = true
+}
+
+@article{liao2021c,
+  title = {Towards Efficient and Accurate Ab Initio Solutions to Periodic Systems via Transcorrelation and Coupled Cluster Theory},
+  author = {Liao, Ke and Schraivogel, Thomas and Luo, Hongjun and Kats, Daniel and Alavi, Ali},
+  year = {2021},
+  month = jul,
+  journal = {Phys. Rev. Research},
+  volume = {3},
+  number = {3},
+  pages = {033072},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.3.033072},
+  html= {https://link.aps.org/doi/10.1103/PhysRevResearch.3.033072},
+  urldate = {2021-08-24},
+  abstract = {We propose a streamlined combination of the transcorrelation (TC) and coupled cluster (CC) theory, which not only increases the convergence rate with respect to the basis set but also extends the applicability of the lowest-order CC approximations to strongly correlated systems. Using the three-dimensional uniform electron gas as a model for real periodic solids and highly accurate ground-state energies from the state-of-the-art quantum Monte Carlo methods as benchmark, we show that, with the correct physical insights incorporated, our TC-CC methods gain drastic improvements in accuracy compared with canonical CC methods, and the errors of our methods remain {\textpm}0.001 Hartree per electron (Ha/electron) across a wide range of densities. With the greatly improved efficiencies and the balanced and accurate performances at both low and high densities, our methods present great promise for applications on real solids with weak and strong correlations.},
+  copyright = {Creative Commons Attribution 4.0 International Licence (CC-BY)},
+  altmetric = true,
+  selected = true
+}
+
+@article{liao2023,
+  title = {Density {{Matrix Renormalization Group}} for {{Transcorrelated Hamiltonians}}: {{Ground}} and {{Excited States}} in {{Molecules}}},
+  shorttitle = {Density {{Matrix Renormalization Group}} for {{Transcorrelated Hamiltonians}}},
+  author = {Liao, Ke and Zhai, Huanchen and Christlmaier, Evelin Martine and Schraivogel, Thomas and R{\'i}os, Pablo L{\'o}pez and Kats, Daniel and Alavi, Ali},
+  year = {2023},
+  month = mar,
+  journal = {J. Chem. Theory Comput.},
+  volume = {19},
+  number = {6},
+  pages = {1734--1743},
+  publisher = {American Chemical Society},
+  issn = {1549-9618},
+  doi = {10.1021/acs.jctc.2c01207},
+  html= {https://doi.org/10.1021/acs.jctc.2c01207},
+  urldate = {2023-04-11},
+  abstract = {We present the theory of a density matrix renormalization group (DMRG) algorithm which can solve for both the ground and excited states of non-Hermitian transcorrelated Hamiltonians and show applications in molecular systems. Transcorrelation (TC) accelerates the basis set convergence rate by including known physics (such as, but not limited to, the electron--electron cusp) in the Jastrow factor used for the similarity transformation. It also improves the accuracy of approximate methods such as coupled cluster singles and doubles (CCSD) as shown by recent studies. However, the non-Hermiticity of the TC Hamiltonians poses challenges for variational methods like DMRG. Imaginary-time evolution on the matrix product state (MPS) in the DMRG framework has been proposed to circumvent this problem, but this is currently limited to treating the ground state and has lower efficiency than the time-independent DMRG (TI-DMRG) due to the need to eliminate Trotter errors. In this work, we show that with minimal changes to the existing TI-DMRG algorithm, namely, replacing the original Davidson solver with the general Davidson solver to solve the non-Hermitian effective Hamiltonians at each site for a few low-lying right eigenstates, and following the rest of the original DMRG recipe, one can find the ground and excited states with improved efficiency compared to the original DMRG when extrapolating to the infinite bond dimension limit in the same basis set. An accelerated basis set convergence rate is also observed, as expected, within the TC framework.},
+  copyright = {All rights reserved},
+  altmetric = true,
+  selected = true
+}
 @article{aliverti-piuri2024,
   title = {What Can {{Quantum Information Theory Offer}} to {{Quantum Chemistry}}?},
   author = {{Aliverti-Piuri}, Damiano and Chatterjee, Kaustav and Ding, Lexin and Liao, Ke and Liebert, Julia and Schilling, Christian},
@@ -108,24 +164,6 @@ altmetric = true
   altmetric = true
 }
 
-@article{liao2021c,
-  title = {Towards Efficient and Accurate Ab Initio Solutions to Periodic Systems via Transcorrelation and Coupled Cluster Theory},
-  author = {Liao, Ke and Schraivogel, Thomas and Luo, Hongjun and Kats, Daniel and Alavi, Ali},
-  year = {2021},
-  month = jul,
-  journal = {Phys. Rev. Research},
-  volume = {3},
-  number = {3},
-  pages = {033072},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevResearch.3.033072},
-  html= {https://link.aps.org/doi/10.1103/PhysRevResearch.3.033072},
-  urldate = {2021-08-24},
-  abstract = {We propose a streamlined combination of the transcorrelation (TC) and coupled cluster (CC) theory, which not only increases the convergence rate with respect to the basis set but also extends the applicability of the lowest-order CC approximations to strongly correlated systems. Using the three-dimensional uniform electron gas as a model for real periodic solids and highly accurate ground-state energies from the state-of-the-art quantum Monte Carlo methods as benchmark, we show that, with the correct physical insights incorporated, our TC-CC methods gain drastic improvements in accuracy compared with canonical CC methods, and the errors of our methods remain {\textpm}0.001 Hartree per electron (Ha/electron) across a wide range of densities. With the greatly improved efficiencies and the balanced and accurate performances at both low and high densities, our methods present great promise for applications on real solids with weak and strong correlations.},
-  copyright = {Creative Commons Attribution 4.0 International Licence (CC-BY)},
-  altmetric = true,
-  selected = true
-}
 
 @phdthesis{liao2021d,
   title = {Ab Initio Studies of Solid Phase Diagrams with Quantum Chemical Theories},
@@ -136,26 +174,6 @@ altmetric = true
   copyright = {All rights reserved}
 }
 
-@article{liao2023,
-  title = {Density {{Matrix Renormalization Group}} for {{Transcorrelated Hamiltonians}}: {{Ground}} and {{Excited States}} in {{Molecules}}},
-  shorttitle = {Density {{Matrix Renormalization Group}} for {{Transcorrelated Hamiltonians}}},
-  author = {Liao, Ke and Zhai, Huanchen and Christlmaier, Evelin Martine and Schraivogel, Thomas and R{\'i}os, Pablo L{\'o}pez and Kats, Daniel and Alavi, Ali},
-  year = {2023},
-  month = mar,
-  journal = {J. Chem. Theory Comput.},
-  volume = {19},
-  number = {6},
-  pages = {1734--1743},
-  publisher = {American Chemical Society},
-  issn = {1549-9618},
-  doi = {10.1021/acs.jctc.2c01207},
-  html= {https://doi.org/10.1021/acs.jctc.2c01207},
-  urldate = {2023-04-11},
-  abstract = {We present the theory of a density matrix renormalization group (DMRG) algorithm which can solve for both the ground and excited states of non-Hermitian transcorrelated Hamiltonians and show applications in molecular systems. Transcorrelation (TC) accelerates the basis set convergence rate by including known physics (such as, but not limited to, the electron--electron cusp) in the Jastrow factor used for the similarity transformation. It also improves the accuracy of approximate methods such as coupled cluster singles and doubles (CCSD) as shown by recent studies. However, the non-Hermiticity of the TC Hamiltonians poses challenges for variational methods like DMRG. Imaginary-time evolution on the matrix product state (MPS) in the DMRG framework has been proposed to circumvent this problem, but this is currently limited to treating the ground state and has lower efficiency than the time-independent DMRG (TI-DMRG) due to the need to eliminate Trotter errors. In this work, we show that with minimal changes to the existing TI-DMRG algorithm, namely, replacing the original Davidson solver with the general Davidson solver to solve the non-Hermitian effective Hamiltonians at each site for a few low-lying right eigenstates, and following the rest of the original DMRG recipe, one can find the ground and excited states with improved efficiency compared to the original DMRG when extrapolating to the infinite bond dimension limit in the same basis set. An accelerated basis set convergence rate is also observed, as expected, within the TC framework.},
-  copyright = {All rights reserved},
-  altmetric = true,
-  selected = true
-}
 
 @misc{liao2024,
   title = {Unveiling {{Intrinsic Many-Body Complexity}} by {{Compressing Single-Body Triviality}}},
@@ -196,20 +214,4 @@ altmetric = true
   altmetric = true
 }
 
-@misc{liao2024c,
-  title = {Energy-Filtered Excited States and Real-Time Dynamics Served in a Contour Integral},
-  author = {Liao, Ke},
-  year = {2024},
-  month = sep,
-  number = {arXiv:2409.07354},
-  eprint = {2409.07354},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2409.07354},
-  url = {http://arxiv.org/abs/2409.07354},
-  urldate = {2024-10-03},
-  abstract = {It is observed that the Cauchy integral formula (CIF) can be used to represent holomorphic functions of diagonalizable operators on a finite domain. This forms the theoretical foundation for applying various operators in the form of a contour integral to a state, while filtering away eigen-components that are not included by the contour. As a special case, the identity operator in the integral form--the Riesz projector--is used to design a black-box algorithm for finding a given number of eigen-pairs whose energies are close to a specified value in the equation-of-motion coupled cluster singles and doubles (EOM-CCSD) framework, with applications to calculate core excited states of molecules which is relevant for the X-ray absorption spectroscopy (XAS). As a generalization, I showcase a novel real-time electron dynamics (RT-EOM-CCSD) algorithm based on the CIF form of the exponential time-evolution operator, which admits extremely large time steps while preserving accurate spectral information.},
-  copyright = {All rights reserved},
-  altmetric = true,
-  selected = true
-}
 
