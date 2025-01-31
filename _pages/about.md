@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Ludwig Maximilian University of Munich</a>
+subtitle: <a href='#'>Max Planck Institute for Solid State Research</a>
 
 profile:
   align: right
