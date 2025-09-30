@@ -105,9 +105,11 @@
       "endDate": "2015-06"
     }
   ],
-  "academic services": [
+   "volunteer": [
     {
-      "name": ["Reviewer for PRX, Quantum, PRB"]
+      "organization": "Academic Journals",
+      "position": "Peer Reviewer",
+      "summary": "Reviewer for Physical Review X (PRX), Quantum, and Physical Review B (PRB)"
     }
   ],
   "skills": [
