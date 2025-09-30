@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Ke Liao",
-    "occupation": "Scientist",
+    "occupation": "Researcher",
     "image": "",
     "url": "https://nickirk.github.io/",
     "summary": "A quantum chemist who is enthusiastic about theoretical and algorithmic development to solve strongly correlated quantum systems on classical and quantum computers.",
     "location": {
-      "city": "Munich",
-      "countryCode": "Germany"
+      "city": "New Haven",
+      "countryCode": "USA"
     },
     "profiles": [
       {
@@ -18,8 +18,21 @@
   },
   "work": [
     {
-      "name": "Ludwig-Maximilians-Universität München, Munich, Germany",
-      "position": "Teaching Assistant",
+      "name": "Yale University", "position": "Postdoctoral Associate",
+      "startDate": "2025-07",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": ["Quantum Embedding, Machine Learning, Materials"]
+    },
+    {
+      "name": "Max Planck Institute for Solid State Research, Stuttgart, Germany", "position": "Visiting Postdoctoral Researcher",
+      "startDate": "2025-01",
+      "endDate": "2025-06",
+      "summary": "",
+      "highlights": ["Density Fitting, Transcorrelation"]
+    },
+    {
+      "name": "Ludwig-Maximilians-Universität München, Munich, Germany", "position": "Teaching Assistant",
       "startDate": "2023-10",
       "endDate": "2024-04",
       "summary": "Teaching assistant to Quantum Information Theory course.",
@@ -29,7 +42,7 @@
       "name": "Ludwig-Maximilians-Universität München, Munich, Germany",
       "position": "Postdoctoral Researcher ",
       "startDate": "2023-07",
-      "endDate": "now",
+      "endDate": "2024-12",
       "summary": "Combining quantum information theory and quantum chemistry into a general orbital optimization algorithm that compactifies the quantum state representation.",
       "highlights": ["Quantum Information Theory, Orbital Optimization, Tailored Coupled Cluster, Quantum Chemistry"]
     },
@@ -90,6 +103,11 @@
       "studyType": "Bachelor",
       "startDate": "2011-09",
       "endDate": "2015-06"
+    }
+  ],
+  "Academic Services": [
+    {
+      "name": ["Reviewer for PRX, Quantum, PRB"]
     }
   ],
   "skills": [
