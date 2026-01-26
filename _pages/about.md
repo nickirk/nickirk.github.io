@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Yale University</a>
+subtitle: <a href='https://zhugroup.yale.edu/'>Yale University</a>
 
 profile:
   align: right
@@ -19,18 +19,10 @@ latest_posts: false # includes a list of latest posts
 social: true # includes social icons at the bottom of the page
 ---
 
-I have a strong interest in the theoretical and algorithmic development for solving
-strongly correlated quantum many-body systems, 
-as well as in the application of these methods to study the electronic
-structure of molecules and materials. I am specilised in traditional electronic structure theories, 
-including coupled cluster, DMRG, transcorrelation theory, etc; I am also exploring new 
-interdisciplinary areas such as machine learning, quantum chemistry and materials science.
-I have a Ph.D. in quantum chemistry from the 
-Max Planck Institute for Solid State Research in Stuttgart, Germany, under the joint supervision of
-Prof. Ali Alavi and Prof. Andreas Grüneis.
-I worked as a part-time external science consultant for ByteDance in their pursuit of solving quantum chemical problems using
-machine learning.
-Furthermore, I did a postdoc at California Institute of Technology with Prof. Garnet Chan.
-During my past experience, I have contributed to 
-VASP, PySCF, as well as coded my own package PyMES. 
-Currently, I am a postdoctoral research associate at Yale University with Prof. Tianyu Zhu.
+I am a Postdoctoral Research Associate at **Yale University** working with Prof. Tianyu Zhu. My research focuses on the theoretical and algorithmic development for solving strongly correlated quantum many-body systems, bridging the gap between electronic structure theory and realistic materials modelling via quantum embedding.
+
+I specialize in high-accuracy methods including **Coupled Cluster**, **DMRG**, and **Transcorrelation theory**. My work emphasizes the development of efficient algorithms that enable precise simulations of complex molecules and materials at the thermodynamic limit. 
+
+I am the developer of **PyMES** and am currently leading the development of **PyTC**, a high-performance framework for transcorrelated methods optimized for GPU acceleration via the JAX machine learning framework. PyTC is being finalized and will be released as an open-source project in the near future.
+
+I earned my Ph.D. in Quantum Chemistry from the **Max Planck Institute for Solid State Research** (Stuttgart, Germany) under the joint supervision of Prof. Ali Alavi and Prof. Andreas Grüneis. Previously, I was a postdoctoral researcher at the **California Institute of Technology** with Prof. Garnet Chan and served as an external science consultant for **ByteDance**, applying machine learning to quantum chemical challenges.
