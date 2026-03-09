@@ -3,7 +3,8 @@ github_users:
 
 github_repos:
   - nickirk/pymes
-  - schilling-group/QIO
-  - nickirk/pyscf
-  - cc4s/cc4s
+  - nickirk/tc-nqs-preview
+  - nickirk/nns
   - nickirk/immo
+  - cc4s/cc4s
+  - schilling-group/QIO
