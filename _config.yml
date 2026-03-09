@@ -49,7 +49,7 @@ external_services:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false 
+# rss_icon: false
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -275,7 +275,7 @@ plugins:
   - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
-  - jekyll-feed
+  # - jekyll-feed # disabled: removes /feed.xml RSS endpoint
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
