@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-03-30'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 39
     title: 'Density matrix renormalization group for transcorrelated Hamiltonians: Ground and excited states in molecules'
     year: '2023'
   X5jjBd8AAAAJ:7PzlFSSx8tAC:
-    citations: 14
+    citations: 15
     title: 'Quantum information orbitals (QIO): Unveiling intrinsic many-body complexity by compressing single-body triviality'
     year: '2024'
   X5jjBd8AAAAJ:9ZlFYXVOiuMC:
-    citations: 19
+    citations: 20
     title: What can quantum information theory offer to quantum chemistry?
     year: '2024'
   X5jjBd8AAAAJ:IWHjjKOFINEC:
@@ -18,7 +18,7 @@ papers:
     title: 'Novel perturbative and variational methods for stronger correlations: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:KlAtU1dfN6UC:
-    citations: 26
+    citations: 27
     title: A comparative study using state-of-the-art electronic structure theories on solid hydrogen phases under high pressures
     year: '2019'
   X5jjBd8AAAAJ:L8Ckcad2t8MC:
@@ -30,7 +30,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 133
+    citations: 139
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
@@ -42,7 +42,7 @@ papers:
     title: Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory
     year: '2021'
   X5jjBd8AAAAJ:dhFuZR0502QC:
-    citations: 38
+    citations: 39
     title: Toward Real Chemical Accuracy on Current Quantum Hardware Through the Transcorrelated Method
     year: '2024'
   X5jjBd8AAAAJ:hC7cP41nSMkC:
