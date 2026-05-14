@@ -4,7 +4,7 @@
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: ke.liao.whu@gmail.com # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: false # comment this line to hide the RSS icon
+# rss_icon: false # uncomment to show RSS icon
 scholar_userid: X5jjBd8AAAAJ # your Google Scholar ID
 github_username: nickirk # your GitHub user name
 linkedin_username: ke-liao-184787200 # your LinkedIn user name

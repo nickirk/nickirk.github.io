@@ -1,12 +1,13 @@
 {
   "basics": {
     "name": "Ke Liao",
-    "occupation": "Researcher",
+    "occupation": "ML Researcher / Computational Scientist",
     "image": "",
     "url": "https://nickirk.github.io/",
-    "summary": "A quantum chemist who is enthusiastic about theoretical and algorithmic development to solve strongly correlated quantum systems on classical and quantum computers.",
+    "summary": "Postdoctoral researcher building GPU-accelerated machine learning systems for scientific discovery. I develop high-performance algorithms in JAX that combine deep learning with quantum many-body physics — neural quantum states, transcorrelation, and quantum embedding — to push what is computationally tractable in ab initio simulation of strongly correlated electrons.",
     "location": {
       "city": "New Haven",
+      "region": "CT",
       "countryCode": "USA"
     },
     "profiles": [
@@ -21,8 +22,8 @@
       "name": "Yale University", "position": "Postdoctoral Associate",
       "startDate": "2025-07",
       "endDate": "Present",
-      "summary": "",
-      "highlights": ["Quantum Embedding, Machine Learning, Materials"]
+      "summary": "Leading development of PyTC, a JAX-based GPU-accelerated framework for transcorrelated electronic structure. Building neural quantum state methods and quantum embedding workflows for strongly correlated materials.",
+      "highlights": ["JAX, GPU acceleration, Neural Quantum States, Quantum Embedding, Machine Learning, Scientific Computing"]
     },
     {
       "name": "Max Planck Institute for Solid State Research, Stuttgart, Germany", "position": "Visiting Postdoctoral Researcher",
@@ -67,8 +68,8 @@
       "position": "External Scientific Consultant part-time 20% (remote)",
       "startDate": "2021-05",
       "endDate": "2022-01",
-      "summary": "Working at the intersection of quantum chemistry and machine learning, evaluating ideas for new projects and giving advice for solving concrete problems.",
-      "highlights": ["Machine Learning", "AI", "Deep Learning"]
+      "summary": "Worked at the intersection of quantum chemistry and machine learning. Evaluated and scoped industry ML research projects applying deep learning to quantum chemical problems; advised on algorithmic and methodological choices.",
+      "highlights": ["Machine Learning", "Deep Learning", "AI for Science", "Quantum Chemistry"]
     }
   ],
   "education": [
@@ -114,7 +115,16 @@
   ],
   "skills": [
     {
-      "name": ["HPC Computational Physics, Method Development, Quantum Chemistry, Python, C++, Fortran"]
+      "name": "Machine Learning & AI",
+      "keywords": ["JAX", "PyTorch", "Deep Learning", "Neural Quantum States", "Scientific Machine Learning", "GPU Computing"]
+    },
+    {
+      "name": "Scientific Computing",
+      "keywords": ["HPC", "Numerical Methods", "Python", "C++", "Fortran", "NumPy", "MPI", "CUDA"]
+    },
+    {
+      "name": "Quantum Many-Body Methods",
+      "keywords": ["Coupled Cluster", "DMRG", "Transcorrelation", "Quantum Embedding", "Electronic Structure"]
     }
   ],
   "languages": [

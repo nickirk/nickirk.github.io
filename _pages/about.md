@@ -19,10 +19,16 @@ latest_posts: false # includes a list of latest posts
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Research Associate at **Yale University** working with Prof. Tianyu Zhu. My research focuses on the theoretical and algorithmic development for solving strongly correlated quantum many-body systems, bridging the gap between electronic structure theory and realistic materials modelling via quantum embedding.
+I build **neural-network solvers for quantum many-body physics**, writing high-performance **JAX** code that runs on GPUs to make *ab initio* simulation of strongly correlated electrons tractable. I am a Postdoctoral Research Associate at **Yale University**, working with Prof. Tianyu Zhu.
 
-I specialize in high-accuracy methods including **Coupled Cluster**, **DMRG**, and **Transcorrelation theory**. My work emphasizes the development of efficient algorithms that enable precise simulations of complex molecules and materials at the thermodynamic limit. 
+My recent work centers on **neural quantum states** and **transcorrelation theory** for solving high-dimensional electronic Schrödinger equations, and on **quantum embedding** to bridge electronic structure with realistic materials modelling. I lead the development of **PyTC**, a JAX-based framework for transcorrelated methods optimized for GPU acceleration (to be open-sourced soon), and contribute to neural-network ansätze that learn compact representations of strongly correlated wavefunctions.
 
-I am the developer of **PyMES** and am currently leading the development of **PyTC**, a high-performance framework for transcorrelated methods optimized for GPU acceleration via the JAX machine learning framework. PyTC is being finalized and will be released as an open-source project in the near future.
+My **early exposure to industrial machine learning** came as an external consultant at **ByteDance**, working at the intersection of quantum chemistry and ML — an experience that has shaped what I build today. I earned my Ph.D. in Quantum Chemistry from the **Max Planck Institute for Solid State Research** (Stuttgart) under Profs. Ali Alavi and Andreas Grüneis, and was subsequently a postdoctoral researcher at the **California Institute of Technology** with Prof. Garnet Chan. My work bridges high-accuracy electronic structure theory (**Coupled Cluster**, **DMRG**, transcorrelation) with modern ML frameworks, GPU computing, and the engineering discipline of building performant scientific software.
 
-I earned my Ph.D. in Quantum Chemistry from the **Max Planck Institute for Solid State Research** (Stuttgart, Germany) under the joint supervision of Prof. Ali Alavi and Prof. Andreas Grüneis. Previously, I was a postdoctoral researcher at the **California Institute of Technology** with Prof. Garnet Chan and served as an external science consultant for **ByteDance**, applying machine learning to quantum chemical challenges.
+## Selected work
+
+- **[PyTC](/projects/pytc/)** — JAX-based, GPU-accelerated framework for transcorrelated electronic structure methods. (in development, open source soon)
+- **[TC-NQS](/projects/tc-nqs/)** — Neural quantum states combined with transcorrelation for strongly correlated systems. [[preview repo]](https://github.com/nickirk/tc-nqs-preview)
+- **[PyMES](/projects/pymes/)** — Python framework for many-electron simulations; my long-running open-source electronic structure toolkit. [[repo]](https://github.com/nickirk/pymes)
+
+I am open to research and applied science roles in **AI for science**, **ML research engineering**, and **scientific machine learning**. Feel free to reach out via email.

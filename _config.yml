@@ -10,12 +10,11 @@ email: ke.liao.whu@gmail.com
 contact_note: >
   Feel free to contact me via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ke Liao — Postdoctoral Researcher at Yale building GPU-accelerated machine learning systems for scientific discovery. JAX, neural quantum states, deep learning for quantum chemistry, and high-performance numerical computing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: # add your own keywords or leave empty
+keywords: machine learning, AI for science, scientific machine learning, JAX, deep learning, neural quantum states, GPU computing, high-performance computing, quantum chemistry, electronic structure, coupled cluster, DMRG, transcorrelation, quantum embedding, computational physics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -264,7 +263,7 @@ exclude:
   - _pages/profiles.md
   - _pages/dropdown.md
   - _pages/blog.md
-  - _pages/projects.md
+  # _pages/projects.md re-enabled: see /projects/ for PyTC, TC-NQS, PyMES
 keep_files:
   - CNAME
   - .nojekyll
