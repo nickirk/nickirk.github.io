@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-05-29'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 41
@@ -10,7 +10,7 @@ papers:
     title: 'Quantum information orbitals (QIO): Unveiling intrinsic many-body complexity by compressing single-body triviality'
     year: '2024'
   X5jjBd8AAAAJ:9ZlFYXVOiuMC:
-    citations: 24
+    citations: 25
     title: What can quantum information theory offer to quantum chemistry?
     year: '2024'
   X5jjBd8AAAAJ:IWHjjKOFINEC:
@@ -42,7 +42,7 @@ papers:
     title: Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory
     year: '2021'
   X5jjBd8AAAAJ:dhFuZR0502QC:
-    citations: 41
+    citations: 42
     title: Toward Real Chemical Accuracy on Current Quantum Hardware Through the Transcorrelated Method
     year: '2024'
   X5jjBd8AAAAJ:hC7cP41nSMkC:
@@ -50,7 +50,7 @@ papers:
     title: 'Stochastic and low-scaling techniques/extended systems: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:kNdYIx-mwKoC:
-    citations: 191
+    citations: 192
     title: Applying the Coupled-Cluster Ansatz to Solids and Surfaces in the Thermodynamic Limit
     year: '2018'
   X5jjBd8AAAAJ:qUcmZB5y_30C:
@@ -58,6 +58,6 @@ papers:
     title: 'Stochastic and low-scaling techniques: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:u5HHmVD_uO8C:
-    citations: 86
+    citations: 87
     title: 'Communication: Finite size correction in periodic coupled cluster theory calculations of solids'
     year: '2016'
