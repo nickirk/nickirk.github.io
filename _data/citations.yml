@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-15'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
-    citations: 41
+    citations: 40
     title: 'Density matrix renormalization group for transcorrelated Hamiltonians: Ground and excited states in molecules'
     year: '2023'
   X5jjBd8AAAAJ:7PzlFSSx8tAC:
@@ -18,7 +18,7 @@ papers:
     title: 'Novel perturbative and variational methods for stronger correlations: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:KlAtU1dfN6UC:
-    citations: 27
+    citations: 28
     title: A comparative study using state-of-the-art electronic structure theories on solid hydrogen phases under high pressures
     year: '2019'
   X5jjBd8AAAAJ:L8Ckcad2t8MC:
@@ -30,7 +30,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 152
+    citations: 155
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
