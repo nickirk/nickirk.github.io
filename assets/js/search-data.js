@@ -23,6 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Selected invited and contributed talks, listed in reverse chronological order. Public event records are linked where available.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
+        },{id: "nav-services",
+          title: "services",
+          description: "Academic and professional service.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/services/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
@@ -434,7 +448,7 @@ ninja.data = [{
               window.location.href = "/projects/pymes/";
             },},{id: "projects-pytc",
           title: 'PyTC',
-          description: "JAX-based, GPU-accelerated framework for transcorrelated electronic structure methods",
+          description: "JAX-based research framework for transcorrelated electronic-structure methods",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pytc/";
             },},{id: "projects-tc-nqs",
