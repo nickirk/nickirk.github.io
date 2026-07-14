@@ -11,6 +11,8 @@ nav_order: 4
 
 - **Interpolative Separable Density Fitting for the Transcorrelated Hamiltonian: A GPU-Accelerated, Correlator-Agnostic Approach.** Invited QMC Seminar, Center for Computational Quantum Physics, Flatiron Institute, June 2026.
 
+- **Enabling large-scale transcorrelation simulations via interpolative separable density fitting and GPU acceleration.** Invited talk (via Zoom), Ringberg Symposium on Quo Vadis Electronic Structure Theory (QVEST-26), May 13, 2026.
+
 - **Toward Autonomous Material Characterization: An LLM-Based Pipeline for Magnetic State Analysis.** Contributed talk, Yale AI Symposium, April 2026. [Event record](https://ai.yale.edu/agenda-ai-at-yale-symposium-2026)
 
 - **Ab initio dynamical mean field theory study on the electronic structure and magnetism of Fe<sub>1/3</sub>NbS<sub>2</sub>.** Contributed oral presentation, APS Global Physics Summit, March 19, 2026. [Event record](https://meetings-archive.aps.org/smt/2026/mar-s44/5/)
@@ -25,7 +27,7 @@ nav_order: 4
 
 ## 2024
 
-- **Quantum-information-based orbital optimization, energy-filtered excited states and electron dynamics within the coupled cluster framework.** Invited conference talk, ISTCP Congress, October 17, 2024. [Program](https://istcp2024.com/web/progress.html)
+- **Quantum-information-based orbital optimization, energy-filtered excited states and electron dynamics within the coupled cluster framework.** Invited conference talk, 11th Triennial Congress of the International Society for Theoretical Chemical Physics (ISTCP 2024), Qingdao, China, October 17, 2024. [Official program](https://www.istcp2024.com/web/files/ConferenceGuide.pdf)
 
 - **Combining the strengths of first- and second-quantized approaches within the transcorrelation framework.** Invited group seminar, Giuseppe Carleo Group, EPFL, September 2024.
 
