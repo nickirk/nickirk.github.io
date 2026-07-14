@@ -79,9 +79,39 @@ social: true # includes social icons at the bottom of the page
   }
 
   @media (min-width: 768px) {
-    .post .profile.float-right {
-      width: 26%;
-      margin: 0 0 1.5rem 2rem;
+    .post > article {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(11rem, 26%);
+      column-gap: 2rem;
+    }
+
+    .post > article > .profile.float-right {
+      float: none !important;
+      grid-column: 2;
+      grid-row: 1;
+      align-self: start;
+      width: auto;
+      margin: 0;
+    }
+
+    .post > article > .clearfix {
+      display: contents;
+    }
+
+    .about-intro {
+      grid-column: 1;
+      grid-row: 1;
+      align-self: center;
+    }
+
+    .about-main {
+      grid-column: 1 / -1;
+      grid-row: 2;
+    }
+
+    .post > article > .social {
+      grid-column: 1 / -1;
+      grid-row: 3;
     }
   }
 </style>
