@@ -10,7 +10,7 @@ email: ke.liao.whu@gmail.com
 contact_note: >
   Feel free to contact me via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ke Liao — Postdoctoral Researcher at Yale building GPU-accelerated machine learning systems for scientific discovery. JAX, neural quantum states, deep learning for quantum chemistry, and high-performance numerical computing.
+  Ke Liao — Postdoctoral Associate at Yale developing scalable methods for correlated-electron physics, transcorrelated electronic structure, neural quantum states, quantum embedding, and high-performance scientific computing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
