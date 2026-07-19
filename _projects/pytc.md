@@ -6,7 +6,7 @@ importance: 1
 category: work
 ---
 
-**Status:** Active research and development at Yale University.
+**Status:** Active research and development at Yale University. The project was initiated and initially developed at the Max Planck Institute for Solid State Research.
 
 ## What is PyTC?
 
