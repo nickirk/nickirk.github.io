@@ -4,9 +4,12 @@ title: PyTC
 description: JAX-based research framework for transcorrelated electronic-structure methods
 importance: 1
 category: work
+github: https://github.com/nickirk/pytc
 ---
 
 **Status:** Active research and development at Yale University. The project was initiated and initially developed at the Max Planck Institute for Solid State Research.
+
+**Repo:** [nickirk/pytc](https://github.com/nickirk/pytc)
 
 ## What is PyTC?
 
