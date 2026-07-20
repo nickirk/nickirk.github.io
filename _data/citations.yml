@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-20'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
-    citations: 43
+    citations: 44
     title: 'Density matrix renormalization group for transcorrelated Hamiltonians: Ground and excited states in molecules'
     year: '2023'
   X5jjBd8AAAAJ:7PzlFSSx8tAC:
-    citations: 18
+    citations: 19
     title: 'Quantum information orbitals (QIO): Unveiling intrinsic many-body complexity by compressing single-body triviality'
     year: '2024'
   X5jjBd8AAAAJ:9ZlFYXVOiuMC:
-    citations: 28
+    citations: 30
     title: What can quantum information theory offer to quantum chemistry?
     year: '2024'
   X5jjBd8AAAAJ:IWHjjKOFINEC:
@@ -18,7 +18,7 @@ papers:
     title: 'Novel perturbative and variational methods for stronger correlations: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:KlAtU1dfN6UC:
-    citations: 28
+    citations: 29
     title: A comparative study using state-of-the-art electronic structure theories on solid hydrogen phases under high pressures
     year: '2019'
   X5jjBd8AAAAJ:L8Ckcad2t8MC:
@@ -30,7 +30,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 160
+    citations: 161
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
@@ -38,7 +38,7 @@ papers:
     title: Structural and electronic properties of solid molecular hydrogen from many-electron theories
     year: '2021'
   X5jjBd8AAAAJ:_kc_bZDykSQC:
-    citations: 52
+    citations: 53
     title: Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory
     year: '2021'
   X5jjBd8AAAAJ:dhFuZR0502QC:
@@ -50,7 +50,7 @@ papers:
     title: 'Stochastic and low-scaling techniques/extended systems: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:kNdYIx-mwKoC:
-    citations: 193
+    citations: 194
     title: Applying the Coupled-Cluster Ansatz to Solids and Surfaces in the Thermodynamic Limit
     year: '2018'
   X5jjBd8AAAAJ:qUcmZB5y_30C:
@@ -58,6 +58,6 @@ papers:
     title: 'Stochastic and low-scaling techniques: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:u5HHmVD_uO8C:
-    citations: 87
+    citations: 88
     title: 'Communication: Finite size correction in periodic coupled cluster theory calculations of solids'
     year: '2016'
