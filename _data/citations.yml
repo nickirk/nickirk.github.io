@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-24'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 44
@@ -13,6 +13,10 @@ papers:
     citations: 30
     title: What can quantum information theory offer to quantum chemistry?
     year: '2024'
+  X5jjBd8AAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: Interpolative Separable Density-Fitting for Transcorrelated Hamiltonians
+    year: '2026'
   X5jjBd8AAAAJ:IWHjjKOFINEC:
     citations: 1
     title: 'Novel perturbative and variational methods for stronger correlations: general discussion'

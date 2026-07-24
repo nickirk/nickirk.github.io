@@ -1,14 +1,31 @@
-@misc{liao2024c,
+@misc{liao2026isdf,
+  title = {Interpolative Separable Density-Fitting for Transcorrelated Hamiltonians},
+  author = {Liao, Ke and Cheng, Yifan and Dobrautz, Werner and Zhu, Tianyu and Alavi, Ali},
+  year = {2026},
+  month = jul,
+  number = {arXiv:2607.17314},
+  eprint = {2607.17314},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2607.17314},
+  html = {https://arxiv.org/abs/2607.17314},
+  abstract = {The transcorrelated (TC) method dramatically accelerates the convergence of correlated calculations toward the complete-basis-set (CBS) limit by folding a Jastrow correlator into the Hamiltonian via a similarity transformation, incorporating the electron--electron cusp into the effective interaction. We make the TC framework practical for large systems and flexible, multi-center correlators by compressing the grid-evaluated TC integrals with the interpolative separable density-fitting (ISDF) approximation, combined with the effective two-body (xTC) treatment of the three-body operator. This low-rank representation reduces storage and integration costs by orders of magnitude, and a multi-GPU implementation with automatic differentiation of the correlator makes the construction routine for large basis sets. We demonstrate the resulting ISDF-xTC-CCSD method on the linear hydrogen chain, reaching the joint thermodynamic and CBS limits with basis sets up to cc-pV5Z in agreement with state-of-the-art many-body references to within about 1~mHa/atom, and on the benzene ground-state energy with up to 1200 orbitals (cc-pCV5Z), where the method attains state-of-the-art accuracy at the coupled cluster singles and doubles level and its CBS extrapolation is markedly more robust than that of conventional coupled-cluster methods.},
+  altmetric = true,
+  selected = true
+}
+
+@article{liao2024c,
   title = {Energy-Filtered Excited States and Real-Time Dynamics Served in a Contour Integral},
   author = {Liao, Ke},
   year = {2025},
-  month = sep,
-  number = {arXiv:2409.07354},
-  eprint = {2409.07354},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2409.07354},
-  url = {http://arxiv.org/abs/2409.07354},
-  urldate = {2024-10-03},
+  month = jun,
+  journal = {J. Chem. Theory Comput.},
+  volume = {21},
+  number = {12},
+  pages = {6074--6083},
+  publisher = {American Chemical Society},
+  issn = {1549-9626},
+  doi = {10.1021/acs.jctc.4c01220},
+  html = {https://doi.org/10.1021/acs.jctc.4c01220},
   abstract = {It is observed that the Cauchy integral formula (CIF) can be used to represent holomorphic functions of diagonalizable operators on a finite domain. This forms the theoretical foundation for applying various operators in the form of a contour integral to a state, while filtering away eigen-components that are not included by the contour. As a special case, the identity operator in the integral form--the Riesz projector--is used to design a black-box algorithm for finding a given number of eigen-pairs whose energies are close to a specified value in the equation-of-motion coupled cluster singles and doubles (EOM-CCSD) framework, with applications to calculate core excited states of molecules which is relevant for the X-ray absorption spectroscopy (XAS). As a generalization, I showcase a novel real-time electron dynamics (RT-EOM-CCSD) algorithm based on the CIF form of the exponential time-evolution operator, which admits extremely large time steps while preserving accurate spectral information.},
   copyright = {All rights reserved},
   altmetric = true,
@@ -60,6 +77,8 @@
   year = {2024},
   month = apr,
   journal = {Faraday Discuss.},
+  volume = {254},
+  pages = {76--106},
   publisher = {The Royal Society of Chemistry},
   issn = {1364-5498},
   doi = {10.1039/D4FD00059E},
@@ -68,6 +87,48 @@
   abstract = {It is the ultimate goal of this work to foster synergy between quantum chemistry and the flourishing field of quantum information theory. For this, we first translate quantum information concepts such as entanglement and correlation into the context of quantum chemical systems. In particular, we establish two conceptually distinct perspectives on correlation leading to a notion of orbital and particle correlation. We then demonstrate that particle correlation equals orbital correlation minimized with respect to all orbital reference bases. Accordingly, particle correlation resembles the minimal, thus intrinsic, complexity of many-electron wavefunctions while orbital correlation quantifies their complexity relative to a basis. We illustrate these novel concepts of intrinsic and extrinsic correlation complexity with analytic and numerical examples, which also demonstrates the crucial link between the two correlation pictures. Our results provide theoretical justification for the long-favored natural orbitals for simplifying electronic structures, and open new pathways for developing more efficient approaches towards the electron correlation problem.},
   copyright = {All rights reserved},
   langid = {english},
+  altmetric = true
+}
+
+@article{abraham2024discussion,
+  title = {Novel Perturbative and Variational Methods for Stronger Correlations: General Discussion},
+  author = {Abraham, Vibin and Atalar, Kemal and Berard, Kenneth O. and Booth, George H. and Burton, Hugh G. A. and Chan, Garnet K.-L. and Evangelista, Francesco A. and Filip, Maria-Andreea and Giner, Emmanuel and Gunasekera, Alexander and Knowles, Peter J. and Lepetit, Marie-Bernadette and Liao, Ke and Loos, Pierre-Fran{\c{c}}ois and Magnusson, Erika and Mayhall, Nicholas J. and Mejuto-Zaera, Carlos and Neese, Frank and Neufeld, Verena A. and Ntola, Pinkie and Plasser, Felix and Ravindran, Visagan and Schilling, Christian and Scuseria, Gustavo and Shee, James and Shi, Benjamin X. and Tew, David P. and Thom, Alex J. W. and Wang, Zikuan and Zgid, Dominika},
+  year = {2024},
+  journal = {Faraday Discuss.},
+  volume = {254},
+  pages = {191--215},
+  publisher = {The Royal Society of Chemistry},
+  issn = {1364-5498},
+  doi = {10.1039/D4FD90041C},
+  html = {https://doi.org/10.1039/D4FD90041C},
+  altmetric = true
+}
+
+@article{alavi2024stochastic,
+  title = {Stochastic and Low-Scaling Techniques: General Discussion},
+  author = {Alavi, Ali and Allen, Marcus and Atalar, Kemal and Berkelbach, Timothy C. and Booth, George H. and Burton, Hugh G. A. and Chan, Garnet Kin-Lic and Craciunescu, Luca and Danilov, Don and Dobrautz, Werner and Evangelista, Francesco A. and Filip, Maria-Andreea and Giner, Emmanuel and Greene-Diniz, Gabriel and Gr{\"u}neis, Andreas and Guo, Yang and Harsha, Gaurav and Ibrahim, Basil and Kapil, Venkat and Kats, Daniel and Knowles, Peter J. and Lepetit, Marie-Bernadette and Liao, Ke and {Li Manni}, Giovanni and Loos, Pierre-Fran{\c{c}}ois and Magnusson, Erika and Marie, Antoine and Mejuto-Zaera, Carlos and Neese, Frank and Nejad, Arman and Neufeld, Verena A. and Pernal, Katarzyna and Plasser, Felix and Prentice, Andrew W. and Ravindran, Visagan and Rehman, Umatur and Reiher, Markus and Schilling, Christian and Scuseria, Gustavo and Shee, James and Shi, Benjamin X. and Szenes, Kalman and Tew, David P. and Thom, Alex J. W. and Wang, Zikuan and Zgid, Dominika and Zhu, Andrew and Zwijnenburg, Martijn A.},
+  year = {2024},
+  journal = {Faraday Discuss.},
+  volume = {254},
+  pages = {451--499},
+  publisher = {The Royal Society of Chemistry},
+  issn = {1364-5498},
+  doi = {10.1039/D4FD90042A},
+  html = {https://doi.org/10.1039/D4FD90042A},
+  altmetric = true
+}
+
+@article{alavi2024extended,
+  title = {Stochastic and Low-Scaling Techniques/Extended Systems: General Discussion},
+  author = {Alavi, Ali and Atalar, Kemal and Berkelbach, Timothy C. and Booth, George H. and Chen, Ji and Danilov, Don and Dobrautz, Werner and Evangelista, Francesco A. and Harsha, Gaurav and Kapil, Venkat and Liao, Ke and Loos, Pierre-Fran{\c{c}}ois and Nandipati, Krishna Reddy and Plasser, Felix and Prentice, Andrew W. and Reiher, Markus and Rubenstein, Brenda and Shi, Benjamin Xu and Thom, Alex J. W. and Wang, Zikuan and Mejuto-Zaera, Carlos and Zgid, Dominika and Zwijnenburg, Martijn A.},
+  year = {2024},
+  journal = {Faraday Discuss.},
+  volume = {254},
+  pages = {570--585},
+  publisher = {The Royal Society of Chemistry},
+  issn = {1364-5498},
+  doi = {10.1039/D4FD90043J},
+  html = {https://doi.org/10.1039/D4FD90043J},
   altmetric = true
 }
 
@@ -176,22 +237,20 @@ altmetric = true
 
 
 @article{liao2024,
-  title = {Quantum information orbitals (QIO): Unveiling intrinsic many-body complexity by compressing single-body triviality},
+  title = {Quantum Information Orbitals (QIO): Unveiling Intrinsic Many-Body Complexity by Compressing Single-Body Triviality},
   author = {Liao, Ke and Ding, Lexin and Schilling, Christian},
   year = {2024},
-  month = feb,
-  journal = {arXiv preprint arXiv:2402.16841},
-  number = {arXiv:2402.16841},
-  eprint = {2402.16841},
-  primaryclass = {physics, physics:quant-ph},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2402.16841},
-  html= {http://arxiv.org/abs/2402.16841},
-  urldate = {2024-03-04},
+  month = jun,
+  journal = {J. Phys. Chem. Lett.},
+  volume = {15},
+  number = {26},
+  pages = {6782--6790},
+  publisher = {American Chemical Society},
+  issn = {1948-7185},
+  doi = {10.1021/acs.jpclett.4c01105},
+  html = {https://doi.org/10.1021/acs.jpclett.4c01105},
   abstract = {The simultaneous treatment of static and dynamical correlations in strongly-correlated electron systems is a critical challenge. In particular, finding a universal scheme for identifying a single-particle orbital basis that minimizes the representational complexity of the many-body wavefunction is a formidable and longstanding problem. As a substantial contribution towards its solution, we show that the total orbital correlation actually reveals and quantifies the intrinsic complexity of the wavefunction,once it is minimized via orbital rotations. To demonstrate the power of this concept in practice, an iterative scheme is proposed to optimize the orbitals by minimizing the total orbital correlation calculated by the tailored coupled cluster singles and doubles (TCCSD) ansatz. The optimized orbitals enable the limited TCCSD ansatz to capture more non-trivial information of the many-body wavefunction, indicated by the improved wavefunction and energy. An initial application of this scheme shows great improvement of TCCSD in predicting the singlet ground state potential energy curves of the strongly correlated C\$\_\{{\textbackslash}rm 2\}\$ and Cr\$\_\{{\textbackslash}rm 2\}\$ molecule.},
-  archiveprefix = {arxiv},
   copyright = {Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC-BY-NC-SA)},
-  keywords = {Physics - Chemical Physics,Quantum Physics},
   altmetric = true,
   selected = true
 }
@@ -214,5 +273,4 @@ altmetric = true
   langid = {english},
   altmetric = true
 }
-
 
