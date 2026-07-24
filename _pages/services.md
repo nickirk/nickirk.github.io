@@ -9,7 +9,7 @@ nav_order: 5
 
 ## Journal reviewing
 
-Peer reviewer for *Physical Review Letters*, *Physical Review X*, *Quantum*, and *Physical Review B*.
+Peer reviewer for _Physical Review Letters_, _Physical Review X_, _Quantum_, and _Physical Review B_.
 
 ## Teaching
 
