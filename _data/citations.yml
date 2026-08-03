@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-03'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 44
@@ -34,7 +34,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 161
+    citations: 166
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
@@ -42,7 +42,7 @@ papers:
     title: Structural and electronic properties of solid molecular hydrogen from many-electron theories
     year: '2021'
   X5jjBd8AAAAJ:_kc_bZDykSQC:
-    citations: 53
+    citations: 54
     title: Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory
     year: '2021'
   X5jjBd8AAAAJ:dhFuZR0502QC:
@@ -62,6 +62,6 @@ papers:
     title: 'Stochastic and low-scaling techniques: general discussion'
     year: '2024'
   X5jjBd8AAAAJ:u5HHmVD_uO8C:
-    citations: 88
+    citations: 89
     title: 'Communication: Finite size correction in periodic coupled cluster theory calculations of solids'
     year: '2016'
