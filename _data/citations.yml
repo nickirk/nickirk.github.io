@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-07'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 44
@@ -34,7 +34,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 166
+    citations: 168
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
