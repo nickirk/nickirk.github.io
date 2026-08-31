@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-08-31'
 papers:
   X5jjBd8AAAAJ:4DMP91E08xMC:
     citations: 44
@@ -34,7 +34,7 @@ papers:
     title: Ab initio studies of solid phase diagrams with quantum chemical theories
     year: '2021'
   X5jjBd8AAAAJ:Wp0gIr-vW9MC:
-    citations: 177
+    citations: 180
     title: 'Block2: A comprehensive open source framework to develop and apply state-of-the-art DMRG algorithms in electronic structure and beyond'
     year: '2023'
   X5jjBd8AAAAJ:YOwf2qJgpHMC:
@@ -46,7 +46,7 @@ papers:
     title: Towards efficient and accurate ab initio solutions to periodic systems via transcorrelation and coupled cluster theory
     year: '2021'
   X5jjBd8AAAAJ:dhFuZR0502QC:
-    citations: 44
+    citations: 45
     title: Toward Real Chemical Accuracy on Current Quantum Hardware Through the Transcorrelated Method
     year: '2024'
   X5jjBd8AAAAJ:hC7cP41nSMkC:
